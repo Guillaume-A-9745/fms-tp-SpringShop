@@ -1,5 +1,9 @@
 package fr.fms.dao;
 
-public class CategoryRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import fr.fms.entities.Category;
+
+public interface CategoryRepository extends JpaRepository<Category,Long> {
 
 }
